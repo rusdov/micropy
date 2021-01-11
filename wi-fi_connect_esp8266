@@ -14,7 +14,7 @@ wlan = network.WLAN(network.STA_IF)
 #ap_if = network.WLAN(network.AP_IF)
 #ap_if.active(False)
 wlan.active(True)
-wlan.connect('cisco', '0679767510')
+wlan.connect('id', 'pass')
 print(wlan.ifconfig())
 
 #import webrepl_setup #webREPL
